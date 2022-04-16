@@ -1,0 +1,57 @@
+{
+  "name": "rencia-moderation",
+  "version": "1.0.0",
+  "description": "Gelişmiş Discord Moderasyon Botu",
+  "main": "rencia.js",
+  "scripts": {
+    "start": "node rencia.js",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "prettier": "prettier --write src/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reencia/discord-moderation-bot.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "rencia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rencia/discord-moderation-bot/issues"
+  },
+  "homepage": "https://github.com/rencia/discord-moderation-bot#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "canvacord": "^5.2.3",
+    "chalk": "^5.0.1",
+    "common-tags": "^1.8.2",
+    "cron": "^1.8.2",
+    "discord-buttons": "^4.0.0-deprecated",
+    "discord-logs": "^2.0.1",
+    "discord.js": "^12.5.3",
+    "express": "^4.17.3",
+    "fs": "^0.0.1-security",
+    "jimp": "^0.16.1",
+    "manageable": "^0.0.2",
+    "member": "^0.0.2",
+    "moment": "^2.29.2",
+    "moment-duration-format": "^2.3.2",
+    "mongoose": "^5.13.7",
+    "ms": "^2.1.3",
+    "parse-ms": "^3.0.0",
+    "path": "^0.12.7",
+    "process": "^0.11.10",
+    "quick.db": "^7.1.3",
+    "snekfetch": "^4.0.4",
+    "superagent": "^7.1.2"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "prettier": "^2.4.1"
+  }
+}
